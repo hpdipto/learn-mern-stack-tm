@@ -60,7 +60,7 @@ class ItemModal extends Component {
 					<ModalBody>
 						<Form onSubmit={this.onSubmit}>
 							<FormGroup>
-								<Label for="item"></Label>
+								<Label for="item">Item</Label>
 								<Input 
 									type="text"
 									name="name"
